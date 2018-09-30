@@ -8,33 +8,33 @@ import "./styles/main.scss";
 // tslint:disable-next-line:no-var-requires
 // const reactLogo = require("./assets/React-icon.png");
 
-import SomeComponent from './components/SomeComponent/SomeComponent';
+import SomeComponent from "./components/SomeComponent/SomeComponent";
 
 const App = () => (
+  <div>
+    <div>pong</div>
     <div>
-        <div>pong</div>
-        <div>
-            <SomeComponent />
-        </div>
+      <SomeComponent />
     </div>
-//   <BrowserRouter>
-//     <main className="container">
-//       <div>
-//         <h1>hello world!</h1>
-//         <img className="container__image" alt="react logo" src={reactLogo} />
-//         <p>If you see this everything is working!</p>
-//       </div>
-//       <ul className="left">
-//         <li>
-//           <Link to="/">Home</Link>
-//         </li>
-//         <li>
-//           <Link to="/about">About</Link>
-//         </li>
-//       </ul>
-//       <Routes />
-//     </main>
-//   </BrowserRouter>
+  </div>
+  //   <BrowserRouter>
+  //     <main className="container">
+  //       <div>
+  //         <h1>hello world!</h1>
+  //         <img className="container__image" alt="react logo" src={reactLogo} />
+  //         <p>If you see this everything is working!</p>
+  //       </div>
+  //       <ul className="left">
+  //         <li>
+  //           <Link to="/">Home</Link>
+  //         </li>
+  //         <li>
+  //           <Link to="/about">About</Link>
+  //         </li>
+  //       </ul>
+  //       <Routes />
+  //     </main>
+  //   </BrowserRouter>
 );
 
 export default App;
