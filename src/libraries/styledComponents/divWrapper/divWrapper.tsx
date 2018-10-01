@@ -7,15 +7,3 @@ const Div = styled.div`
 `;
 
 export default Div;
-
-// const DivWrapper = () => (
-//   <div className={}>SomeComponent</div>
-// );
-
-// export default DivWrapper;
-
-// const OutsetBox = () => (
-//   <Div>
-//     <Paragraph>Get started with styled-components 💅</Paragraph>
-//   </Div>
-// );

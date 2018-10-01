@@ -1,6 +1,6 @@
 // <reference path='./index.d.ts'/>
 import * as React from "react";
-import "./styles/main.scss";
+import "./styles/main.css";
 // import { BrowserRouter, Link } from "react-router-dom";
 
 // import Routes from "./Routes";
@@ -13,7 +13,7 @@ import SomeComponent from "./components/SomeComponent/SomeComponent";
 const App = () => (
   <div>
     <div>pong</div>
-    <div>
+    <div className="paddingTop">
       <SomeComponent />
     </div>
   </div>

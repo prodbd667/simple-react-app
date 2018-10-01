@@ -1,0 +1,4 @@
+@define-mixin ping $position, $size {
+  padding-$(position): $size;
+  @mixin-content;
+}
