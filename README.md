@@ -5,4 +5,4 @@
 ## Postcss
 Для стилей используется [Postcss](https://postcss.org/).
 Плагины:
-- [PostCSS Preset Env] (https://github.com/csstools/postcss-preset-env)
+- [PostCSS Preset Env](https://github.com/csstools/postcss-preset-env)
