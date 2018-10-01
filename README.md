@@ -1,5 +1,5 @@
 # simple-react-app
-Стартовая сборка
+Стартовая сборка React + Typescript + Webpack 4 + Postcss
 
 
 ## Postcss
