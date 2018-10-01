@@ -23,7 +23,7 @@ module.exports = {
         loader: "source-map-loader"
       },
       {
-        test: /\.css$/,
+        test: /\.pcss$/,
         loaders: [
           "style-loader",
           {

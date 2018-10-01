@@ -1,0 +1,11 @@
+@import "partials/_variables.pcss";
+@import "partials/_mixins.pcss";
+
+body {
+  background: var(--color-body);
+}
+
+.paddingTop {
+  @mixin ping top, var(--paddingTop);
+  border: 1px solid #fff;
+}
