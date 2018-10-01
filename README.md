@@ -2,8 +2,8 @@
 Стартовая сборка React + Typescript + Webpack 4 + Postcss
 
 
-## Postcss
-Для стилей используется [Postcss](https://postcss.org/).
+## PostCSS
+Для стилей используется [PostCSS](https://postcss.org/).
 Плагины:
 - [PostCSS Preset Env](https://github.com/csstools/postcss-preset-env)
 - [PostCSS Nested](https://github.com/postcss/postcss-nested)
