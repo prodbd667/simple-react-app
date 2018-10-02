@@ -8,8 +8,8 @@ const merge = require('webpack-merge');
 
 // const env = process.env.NODE_ENV;
 
-// const devConfig = require('./webpack/webpack.config.dev')();
-// const prodConfig = require('./webpack/webpack.config.prod')();
+const devConfig = require('./webpack/webpack.config.dev');
+const prodConfig = require('./webpack/webpack.config.prod');
 
 // const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 //     template: 'index.html',
@@ -21,8 +21,19 @@ const merge = require('webpack-merge');
 //     'process.env.NODE_ENV': JSON.stringify('production'),
 // });
 
+let config;
+if (process.env.NODE_ENV === 'production') {
+  config = prodConfig;
+} else {
+  config = devConfig;
+}
 
-// module.exports = function (env) {
+module.exports = merge(config);
+
+
+// module.exports = (env) => {
+//   console.log('module.exports env', env);
+//   console.log('module.exports process.env', process.env);
 //     if (env === 'production') {
 //         return prodConfig;
 //     }
